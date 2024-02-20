@@ -27,8 +27,8 @@ Siga as etapas abaixo para configurar e executar a aplicação localmente.
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-nome/chatgpt-api-test-generator.git
-cd chatgpt-api-test-generator
+git clone https://github.com/seu-nome/test-code-plataform.git
+cd test-code-plataform
 ```
 
 2. Instale as dependências:
@@ -36,7 +36,11 @@ cd chatgpt-api-test-generator
 ```bash
 npm install
 ```
-
+3. Configure 2 variaveis de ambiente em .env
+```
+  VITE_SECRET_API_KEY=<chave-api-chatgpt>
+  VITE_BASE_URL=<url-api-chatgpt>
+```
 ### Uso
 
 1. Inicie o servidor de desenvolvimento:
@@ -45,7 +49,7 @@ npm install
 npm run dev
 ```
 
-2. Abra seu navegador e vá para [http://localhost:3000](http://localhost:3000).
+2. Abra seu navegador e vá para [http://localhost:5173](http://localhost:5173).
 
 3. Escolha sua linguagem e biblioteca de teste preferidas, em seguida, insira seu trecho de código.
 
