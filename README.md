@@ -80,4 +80,3 @@ Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LIC
 
 ---
 
-Sinta-se à vontade para personalizar ainda mais este modelo com base nas necessidades específicas do seu projeto.
